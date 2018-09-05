@@ -9,8 +9,8 @@ int main()
 	cin >> a;
 	if ((a>64&&a<91)||(a>96&&a<123))
 	{
-		char vowel[5]={'a','e','i','o','u'};
-		for(int i=0;i<5;i++)
+		char vowel[10]={'a','e','i','o','u','A','E','I','O','U'};
+		for(int i=0;i<10;i++)
 		if(a==vowel[i]) 
 		flag=1;
 		if(flag)
