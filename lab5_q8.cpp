@@ -19,6 +19,6 @@ int main()
 		cout << "\nthis is a consonant.";
 	}
 	else
-	cout << " \n this is not a alpabat";
+	cout << " \n this is not a alphabet";
  	return 0;
 }
